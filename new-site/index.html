@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="utf-8">
+
   <!----Font Info---->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -34,8 +35,6 @@
 </head>
 
 <body>
-
-  <!-- Add your site or application content here -->
   <header>
     <div class="content-wrapper">
       <nav>
@@ -62,21 +61,22 @@
       </div>
     </div>
   </header>
-
   <main>
     <article class="portfolio">
       <section id="works">
         <div class="content-wrapper">
-          <h3 class="project-headers">Projects</h3>
+          <h3 class="project-header">Projects</h3>
           <div class="projects-wrapper">
             <div class="project-info-pieces">
               <figure>
-                <img src="img/Unplugged.png" alt="Unplugged website project">
-
+                <a href="https://tremmt.github.io/unplugged-website/" target="_blank">
+                  <img src="img/Unplugged.png" alt="Unplugged website project">
+                </a>
               </figure>
               <h4>Unplugged</h4>
 
-              <p class="project-desc">????????????????????????????????????????????????</p>
+              <p class="project-desc">A multi-page, responsive website for Unplugged, a retreat targeting companies and
+                professionals in the tech industry.</p>
 
               <p><span>Skills:</span>JavaScript, Responsive Design, DOM Manipulation, Loops</p>
               <p><span>Tools:</span>Chrome DevTools, GitHub Pages</p>
@@ -85,11 +85,14 @@
 
             <div class="project-info-pieces">
               <figure>
-                <img src="img/GHR_Gallery.png" alt="github repo gallery">
+                <a href="https://tremmt.github.io/github-repo-gallery/" target="_blank">
+                  <img src="img/GHR_Gallery.png" alt="github repo gallery">
+                </a>
               </figure>
               <h4>GitHub Repo Gallery</h4>
 
-              <p class="project-desc">???????????????????????????????????????????????</p>
+              <p class="project-desc">A gallery of my GitHub portfolio. Using GitHub's API to pull data and create a
+                gallery of my repositories, visitors can select a repository to view more details.</p>
 
               <p><span>Skills:</span> JavaScript, Responsive Design, DOM Manipulation, Loops</p>
 
@@ -99,19 +102,19 @@
 
             <div class="project-info-pieces">
               <figure>
-                <img src="img/Guess.png" alt="guess the word app">
+                <a href="https://tremmt.github.io/guess_the_word-game/" target="_blank">
+                  <img src="img/Guess.png" alt="guess the word app">
+                </a>
               </figure>
               <h4>Guess the Word Game</h4>
 
-              <p class="project-desc">An interactive JavaScript game where players have eight attempts to guess the
-                correct letters in a word.
-                Figue out the word to win!</p>
+              <p class="project-desc">Built using HTML, CSS, and vanilla JavaScript, this game gives players eight
+                attempts to select the correct letter to win.</p>
 
               <p><span>Skills:</span> JavaScript, Responsive Design, DOM Manipulation, Loops</p>
               <p><span>Tools:</span>GitHub Pages, JSON</p>
               <a class="live-page" href="https://tremmt.github.io/guess_the_word-game/" target="_blank">Live Page</a>
             </div>
-
           </div>
         </div>
       </section>
@@ -140,9 +143,8 @@
     <section id="about">
       <div class="content-wrapper">
         <div class="about-content-wrapper">
-
           <figure>
-            <img id="profile-pic" src="TAKE AND PLACE~!!!!">
+            <img id="profile-pic" src="img/web_developer_portait.png" alt="Portait picture of Tremaine">
           </figure>
 
           <div class="about-info">
@@ -178,8 +180,8 @@
               When I’m not working or coding, I’m most likely playing videos games and doing online research on
               anything that intrigues me. I also love reading, journaling, and exploring new music.
             </p>
+            <p><span>I look forward to working with you!</span></p>
           </div>
-          <p><span>I look forward to working with you!</span></p>
         </div>
       </div>
     </section>
@@ -191,21 +193,31 @@
       <div class="contact-wrapper">
         <div class="contact-info">
           <h5 class="contact-title">Hire Me</h5>
-          <p>Email:</p>
+          <p>Email: tremariet@gmail.com</p>
         </div>
         <div class="follow-section">
           <h5 class="contact-title">Follow Me</h5>
-          <icon>LinkedIn</icon>
-          <icon>GitHub</icon>
+          <ul class="social-icons">
+            <li>
+              <a href="https://www.linkedin.com/in/tremaine-trotter/" target="_blank">
+                <i class="fab fa-linkedin-in">
+                </i>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/TremMT" target="_blank">
+                <i class="fab fa-github">
+                </i>
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
       <p>Copyright
-        <script>document.write(new Date().getFullYear())</script>
-        2024 | Tremaine Trotter
+        <script>document.write(new Date().getFullYear())</script> | Tremaine Trotter
       </p>
     </div>
   </footer>
-
 </body>
 
 </html>
