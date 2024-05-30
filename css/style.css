@@ -346,9 +346,6 @@ header h2 {
 .project-info-pieces {
   width: 100%;
   display: flex;
-  /* This doesn't seem to work as it's supposed to. This ON makes the project-info-pieces look staggered from the top
-  justify-content: center;
-  */
   align-items: center;
   flex-direction: column;
 }
@@ -424,12 +421,6 @@ footer .contact-wrapper {
 footer .contact-info {
   width: 60%;
 }
-
-/*
-footer h4 {
-  width: 100%;
-}
-*/
 
 footer .follow-section {
   width: 60%;
