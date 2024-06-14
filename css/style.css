@@ -645,7 +645,6 @@ header .content-wrapper {
 }
 
 header nav {
-  /* keep if using hamburger menu */
   display: flex;
   justify-content: center;
   width: 100%;
@@ -653,7 +652,6 @@ header nav {
 }
 
 header nav ul {
-  /* keep if using hamburger menu */
   display: flex;
   justify-content: space-between;
   width: 80%;
@@ -755,7 +753,6 @@ footer .copyright {
 
 @media only screen and (min-width:1024px) {
 
-  /* added for landscape tablets and iPad Pro */
   .content-wrapper {
     max-width: 900px;
   }
@@ -957,14 +954,12 @@ footer .copyright {
 }
 
 @media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
 }
 
 @media print,
 (-webkit-min-device-pixel-ratio: 1.25),
 (min-resolution: 1.25dppx),
 (min-resolution: 120dpi) {
-  /* Style adjustments for high resolution devices */
 }
 
 /* ==========================================================================
